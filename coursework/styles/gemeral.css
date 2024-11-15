@@ -1,0 +1,53 @@
+body{
+    background-color: antiquewhite;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aqua;
+}
+.hyperl{
+    background-color: rgb(36, 235, 18);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.reason{
+    margin-left: -90px;
+}
+table {
+    display: grid;
+    justify-items: center;
+    border: 2px;
+    
+}
+button{
+    font-size:20px;
+    color: blue;
+    background-color: greenyellow;
+    padding: 5px 60px;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    margin-bottom: 15px;
+}
+button:hover{
+    color: greenyellow;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: 5px 5px 10px rgba(13, 10, 196, 0.5);
+}
